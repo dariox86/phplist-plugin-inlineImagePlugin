@@ -64,7 +64,7 @@ class inlineImagePlugin extends phplistPlugin
       			'description' => "Limit for size of attached inline images in kB",
       			'type' => 'integer',
       			'allowempty' => 0,
-      			"max" => 499,
+      			"max" => 8192,
       			"min" => 10,
       			'category'=> 'campaign',
    			 	)
