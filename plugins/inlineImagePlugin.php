@@ -60,7 +60,7 @@ class inlineImagePlugin extends phplistPlugin
 		);  				// Structure of database tables for this plugin
 	public $settings = array(
     		"ImageAttachLimit" => array (
-      			'value' => 100,
+      			'value' => 4096,
       			'description' => "Limit for size of attached inline images in kB",
       			'type' => 'integer',
       			'allowempty' => 0,
